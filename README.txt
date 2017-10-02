@@ -15,6 +15,6 @@ INSTALLATION:
 4. Login Details: username- rasan password- 1234
 
 
-To see the website online, visit: http://aspspider.info/cms_sljb
+To see the website online, visit: http://sljb.somee.com
 
 For support contact: rasansmn@gmail.com
