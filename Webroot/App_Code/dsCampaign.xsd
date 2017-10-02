@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCampaign" targetNamespace="http://tempuri.org/dsCampaign.xsd" xmlns:mstns="http://tempuri.org/dsCampaign.xsd" xmlns="http://tempuri.org/dsCampaign.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCampaign" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCampaign" msprop:Generator_DataSetName="dsCampaign">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblCampaign" msprop:Generator_TableClassName="tblCampaignDataTable" msprop:Generator_TableVarName="tabletblCampaign" msprop:Generator_TablePropName="tblCampaign" msprop:Generator_RowDeletingName="tblCampaignRowDeleting" msprop:Generator_UserTableName="tblCampaign" msprop:Generator_RowChangingName="tblCampaignRowChanging" msprop:Generator_RowEvHandlerName="tblCampaignRowChangeEventHandler" msprop:Generator_RowDeletedName="tblCampaignRowDeleted" msprop:Generator_RowEvArgName="tblCampaignRowChangeEvent" msprop:Generator_RowChangedName="tblCampaignRowChanged" msprop:Generator_RowClassName="tblCampaignRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="campaign_id" msprop:Generator_ColumnVarNameInTable="columncampaign_id" msprop:Generator_ColumnPropNameInRow="campaign_id" msprop:Generator_ColumnPropNameInTable="campaign_idColumn" msprop:Generator_UserColumnName="campaign_id" type="xs:string" minOccurs="0" />
+              <xs:element name="location" msprop:Generator_ColumnVarNameInTable="columnlocation" msprop:Generator_ColumnPropNameInRow="location" msprop:Generator_ColumnPropNameInTable="locationColumn" msprop:Generator_UserColumnName="location" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="_date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+              <xs:element name="dsdivision_id" msprop:Generator_ColumnVarNameInTable="columndsdivision_id" msprop:Generator_ColumnPropNameInRow="dsdivision_id" msprop:Generator_ColumnPropNameInTable="dsdivision_idColumn" msprop:Generator_UserColumnName="dsdivision_id" type="xs:string" minOccurs="0" />
+              <xs:element name="user_id" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="created_time" msprop:Generator_ColumnVarNameInTable="columncreated_time" msprop:Generator_ColumnPropNameInRow="created_time" msprop:Generator_ColumnPropNameInTable="created_timeColumn" msprop:Generator_UserColumnName="created_time" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

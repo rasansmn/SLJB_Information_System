@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsApplication" targetNamespace="http://tempuri.org/dsApplication.xsd" xmlns:mstns="http://tempuri.org/dsApplication.xsd" xmlns="http://tempuri.org/dsApplication.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsApplication" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsApplication" msprop:Generator_DataSetName="dsApplication">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblApplication" msprop:Generator_TableClassName="tblApplicationDataTable" msprop:Generator_TableVarName="tabletblApplication" msprop:Generator_TablePropName="tblApplication" msprop:Generator_RowDeletingName="tblApplicationRowDeleting" msprop:Generator_UserTableName="tblApplication" msprop:Generator_RowChangingName="tblApplicationRowChanging" msprop:Generator_RowEvHandlerName="tblApplicationRowChangeEventHandler" msprop:Generator_RowDeletedName="tblApplicationRowDeleted" msprop:Generator_RowEvArgName="tblApplicationRowChangeEvent" msprop:Generator_RowChangedName="tblApplicationRowChanged" msprop:Generator_RowClassName="tblApplicationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="application_id" msprop:Generator_ColumnVarNameInTable="columnapplication_id" msprop:Generator_ColumnPropNameInRow="application_id" msprop:Generator_ColumnPropNameInTable="application_idColumn" msprop:Generator_UserColumnName="application_id" type="xs:string" minOccurs="0" />
+              <xs:element name="jobseeker_id" msprop:Generator_ColumnVarNameInTable="columnjobseeker_id" msprop:Generator_ColumnPropNameInRow="jobseeker_id" msprop:Generator_ColumnPropNameInTable="jobseeker_idColumn" msprop:Generator_UserColumnName="jobseeker_id" type="xs:string" minOccurs="0" />
+              <xs:element name="vacancy_id" msprop:Generator_ColumnVarNameInTable="columnvacancy_id" msprop:Generator_ColumnPropNameInRow="vacancy_id" msprop:Generator_ColumnPropNameInTable="vacancy_idColumn" msprop:Generator_UserColumnName="vacancy_id" type="xs:string" minOccurs="0" />
+              <xs:element name="user_id" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="created_time" msprop:Generator_ColumnVarNameInTable="columncreated_time" msprop:Generator_ColumnPropNameInRow="created_time" msprop:Generator_ColumnPropNameInTable="created_timeColumn" msprop:Generator_UserColumnName="created_time" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

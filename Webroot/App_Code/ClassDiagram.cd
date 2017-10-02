@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Campaign" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAQgAABCAEAACAAAAQACAMAAEAAAAABAAAAEAAI=</HashCode>
+      <FileName>App_Code\Campaign.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Campaign_Invoice" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAiABAgAABAAkABAAAAAQAQAIAAkAAAAQBAAAAEAAA=</HashCode>
+      <FileName>App_Code\Campaign_Invoice.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAABA=</HashCode>
+      <FileName>App_Code\Core.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBConnection" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAEAAAAACAAAA=</HashCode>
+      <FileName>App_Code\DBConnection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="District" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAgAABAAEAAAAAAAQAAAIAEEAAAAABEAAAEIAA=</HashCode>
+      <FileName>App_Code\District.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DS_Division" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAACAgAABCAEAAAAAAAQAAAMAEEAAAAABEAAAEIAA=</HashCode>
+      <FileName>App_Code\DS_Division.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employer" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCEAAAgAABAAEAgYJAAARCAAMYEEAAgAABFAEAcIAA=</HashCode>
+      <FileName>App_Code\Employer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsApplication" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="dsApplication.tblApplicationRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsapplication.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="dsApplication.tblApplicationDataTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsapplication.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="dsApplication.tblApplicationRow" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsapplication.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="dsApplication.tblApplicationRowChangeEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsapplication.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABIAAQEAAAAgCQBgACAAAAAEABBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsapplication.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsCampaign" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="dsCampaign.tblCampaignRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaign.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="dsCampaign.tblCampaignDataTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaign.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="dsCampaign.tblCampaignRow" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaign.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="dsCampaign.tblCampaignRowChangeEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaign.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAQAAAgCQBgAAAAAAAEABBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaign.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsCampaigninvoice" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="dsCampaigninvoice.tblCampaigninvoiceRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaigninvoice.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="dsCampaigninvoice.tblCampaigninvoiceDataTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaigninvoice.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="dsCampaigninvoice.tblCampaigninvoiceRow" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaigninvoice.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="dsCampaigninvoice.tblCampaigninvoiceRowChangeEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaigninvoice.xsd.72cecc2a.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAhAQAAAAAgCQBwAAAAAAAEABBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dscampaigninvoice.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsEmployer" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEAhBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsemployer.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsJobseeker" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAEAQAAAAAgCQBgAAAgAAAEABRA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsjobseeker.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsLog" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAEgiQBgAAAAAAAUABBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dslog.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsVacancy" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJAlIAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsvacancy.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dsVacancyinvoice" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwACAAJIBAAAQAAAAAgCQBgAAAAQAAEABBA=</HashCode>
+      <FileName>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\sri lanka job bank\3004e6de\b27d5a6\Sources_App_Code\dsvacancyinvoice.xsd.72cecc2a.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Job_Seeker" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQAQAAgAQHCAEgAABAAgUgCBsYEGAAgACBMCAEkIQg=</HashCode>
+      <FileName>App_Code\Job_Seeker.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sponsorship" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACABAgAABAAEAACAAAAQAAAIAgEAAAAABAAAAAAAA=</HashCode>
+      <FileName>App_Code\Sponsorship.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User_Account" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAQBBAEAAAAAAAQEAAAAEEAAAIAAAAgAEIAA=</HashCode>
+      <FileName>App_Code\User_Account.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User_Log" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAoAAhAAEAAAAAAAQIAAIAAEAAAAAFAAACAAAI=</HashCode>
+      <FileName>App_Code\User_Log.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vacancy" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAARAgQABgIECAIIAEAQBAQoAgECAAAABAABCEAAA=</HashCode>
+      <FileName>App_Code\Vacancy.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vacancy_Application" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAQAABAAkAAAAAAAQgAAIAAAAAAAALEAACAAQA=</HashCode>
+      <FileName>App_Code\Vacancy_Application.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vacancy_Invoice" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAQAgAABAAECBAAAAAQAQAIAAkAAAAQBAAAAFAAA=</HashCode>
+      <FileName>App_Code\Vacancy_Invoice.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAAAAAAAAAAAAAAABAAACAAAAAAAUIAAAAAA=</HashCode>
+      <FileName>App_Code\Visitor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Permission" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>App_Code\Visitor.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

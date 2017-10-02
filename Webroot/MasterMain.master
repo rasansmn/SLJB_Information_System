@@ -1,0 +1,116 @@
+﻿<%@ Master Language="VB" CodeFile="MasterMain.master.vb" Inherits="MasterMain" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div>
+       <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    SRI LANKA JOB BANK
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:Label ID="Label1" runat="server" Text="Welcome "></asp:Label>
+                <b><asp:Label ID="lblVisitor" runat="server" Text="Guest"></asp:Label></b>! 
+                | <asp:HyperLink ID="lnkLogout" runat="server" 
+                    NavigateUrl="~/User/Login.aspx?action=logout" Visible="False">Logout</asp:HyperLink>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Job Seeker/JobSeekers.aspx" Text="Job Seekers" 
+                            Value="Job Seekers">
+                            <asp:MenuItem Text="View Job Seekers" Value="View Job Seekers" 
+                                NavigateUrl="~/Job Seeker/JobSeekers.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/DS Division/DSDivisions.aspx" 
+                                Text="Divisional Secretariats" Value="Divisional Secretariats">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/District/Districts.aspx" Text="Districts" 
+                                Value="Districts"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Job Seeker/AddJobSeeker.aspx" 
+                                Text="Add Job Seeker" Value="Add Job Seeker"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Employers" Value="Employers" 
+                            NavigateUrl="~/Employer/Employers.aspx">
+                            <asp:MenuItem Text="View Employers" Value="View Employers" 
+                                NavigateUrl="~/Employer/Employers.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Employer/AddEmployer.aspx" Text="Add Employer" 
+                                Value="Add Employer"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Vacancies" Value="Vacancies" 
+                            NavigateUrl="~/Vacancy/Vacancies.aspx">
+                            <asp:MenuItem Text="View Vacancies" Value="View Vacancies" 
+                                NavigateUrl="~/Vacancy/Vacancies.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Vacancy/AddVacancy.aspx" Text="Add Vacancy" 
+                                Value="Add Vacancy"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Campaigns" Value="Campaigns" 
+                            NavigateUrl="~/Campaign/Campaigns.aspx">
+                            <asp:MenuItem Text="View Campaigns" Value="View Campaigns" 
+                                NavigateUrl="~/Campaign/Campaigns.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Sponsorship/Sponsorships.aspx" 
+                                Text="Campaign Sponsorships" Value="Campaign Sponsorships"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Campaign/AddCampaign.aspx" Text="Add Campaign" 
+                                Value="Add Campaign"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Invoices" Value="Invoices">
+                            <asp:MenuItem Text="Campaign Invoices" Value="Campaign Invoices" 
+                                NavigateUrl="~/Invoice/CampaignInvoices.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Vacancy Invoices" Value="Vacancy Invoices" 
+                                NavigateUrl="~/Invoice/VacancyInvoices.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Applications" Value="Applications" 
+                            NavigateUrl="~/Application/Applications.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Users" Value="Users" NavigateUrl="~/User/Users.aspx">
+                            <asp:MenuItem NavigateUrl="~/User/Users.aspx" Text="View Users" 
+                                Value="View Users"></asp:MenuItem>
+                            <asp:MenuItem Text="Log" Value="Log" NavigateUrl="~/Log/Logs.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Add User" Value="Add User" 
+                                NavigateUrl="~/User/AddUser.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Settings" Value="Settings">
+                            <asp:MenuItem NavigateUrl="~/User/UpdateProfile.aspx" Text="Update Profile" 
+                                Value="Update Profile"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        
+        <div class="main">
+            <asp:ContentPlaceHolder ID="cphNotification" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphCommon" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphPerm1" runat="server" Visible="False">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphPerm2" runat="server" Visible="False">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphPerm3" runat="server" Visible="False">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="cphCommonBottom" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+       
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </div>
+    </form>
+</body>
+</html>

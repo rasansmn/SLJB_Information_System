@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCampaigninvoice" targetNamespace="http://tempuri.org/dsCampaigninvoice.xsd" xmlns:mstns="http://tempuri.org/dsCampaigninvoice.xsd" xmlns="http://tempuri.org/dsCampaigninvoice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCampaigninvoice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCampaigninvoice" msprop:Generator_DataSetName="dsCampaigninvoice">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblCampaigninvoice" msprop:Generator_TableClassName="tblCampaigninvoiceDataTable" msprop:Generator_TableVarName="tabletblCampaigninvoice" msprop:Generator_TablePropName="tblCampaigninvoice" msprop:Generator_RowDeletingName="tblCampaigninvoiceRowDeleting" msprop:Generator_UserTableName="tblCampaigninvoice" msprop:Generator_RowChangingName="tblCampaigninvoiceRowChanging" msprop:Generator_RowEvHandlerName="tblCampaigninvoiceRowChangeEventHandler" msprop:Generator_RowDeletedName="tblCampaigninvoiceRowDeleted" msprop:Generator_RowEvArgName="tblCampaigninvoiceRowChangeEvent" msprop:Generator_RowChangedName="tblCampaigninvoiceRowChanged" msprop:Generator_RowClassName="tblCampaigninvoiceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="campaigninvoice_id" msprop:Generator_ColumnVarNameInTable="columncampaigninvoice_id" msprop:Generator_ColumnPropNameInRow="campaigninvoice_id" msprop:Generator_ColumnPropNameInTable="campaigninvoice_idColumn" msprop:Generator_UserColumnName="campaigninvoice_id" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="handled" msprop:Generator_ColumnVarNameInTable="columnhandled" msprop:Generator_ColumnPropNameInRow="handled" msprop:Generator_ColumnPropNameInTable="handledColumn" msprop:Generator_UserColumnName="handled" type="xs:string" minOccurs="0" />
+              <xs:element name="sponsorship_id" msprop:Generator_ColumnVarNameInTable="columnsponsorship_id" msprop:Generator_ColumnPropNameInRow="sponsorship_id" msprop:Generator_ColumnPropNameInTable="sponsorship_idColumn" msprop:Generator_UserColumnName="sponsorship_id" type="xs:string" minOccurs="0" />
+              <xs:element name="user_id" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="created_time" msprop:Generator_ColumnVarNameInTable="columncreated_time" msprop:Generator_ColumnPropNameInRow="created_time" msprop:Generator_ColumnPropNameInTable="created_timeColumn" msprop:Generator_UserColumnName="created_time" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

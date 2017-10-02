@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEmployer" targetNamespace="http://tempuri.org/dsEmployer.xsd" xmlns:mstns="http://tempuri.org/dsEmployer.xsd" xmlns="http://tempuri.org/dsEmployer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEmployer" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsEmployer" msprop:Generator_DataSetName="dsEmployer">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblEmployer" msprop:Generator_TableClassName="tblEmployerDataTable" msprop:Generator_TableVarName="tabletblEmployer" msprop:Generator_TablePropName="tblEmployer" msprop:Generator_RowDeletingName="tblEmployerRowDeleting" msprop:Generator_UserTableName="tblEmployer" msprop:Generator_RowChangingName="tblEmployerRowChanging" msprop:Generator_RowEvHandlerName="tblEmployerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblEmployerRowDeleted" msprop:Generator_RowEvArgName="tblEmployerRowChangeEvent" msprop:Generator_RowChangedName="tblEmployerRowChanged" msprop:Generator_RowClassName="tblEmployerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="emp_id" msprop:Generator_ColumnVarNameInTable="columnemp_id" msprop:Generator_ColumnPropNameInRow="emp_id" msprop:Generator_ColumnPropNameInTable="emp_idColumn" msprop:Generator_UserColumnName="emp_id" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="address" msprop:Generator_ColumnVarNameInTable="columnaddress" msprop:Generator_ColumnPropNameInRow="address" msprop:Generator_ColumnPropNameInTable="addressColumn" msprop:Generator_UserColumnName="address" type="xs:string" minOccurs="0" />
+              <xs:element name="phone" msprop:Generator_ColumnVarNameInTable="columnphone" msprop:Generator_ColumnPropNameInRow="phone" msprop:Generator_ColumnPropNameInTable="phoneColumn" msprop:Generator_UserColumnName="phone" type="xs:string" minOccurs="0" />
+              <xs:element name="fax" msprop:Generator_ColumnVarNameInTable="columnfax" msprop:Generator_ColumnPropNameInRow="fax" msprop:Generator_ColumnPropNameInTable="faxColumn" msprop:Generator_UserColumnName="fax" type="xs:string" minOccurs="0" />
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" type="xs:string" minOccurs="0" />
+              <xs:element name="website" msprop:Generator_ColumnVarNameInTable="columnwebsite" msprop:Generator_ColumnPropNameInRow="website" msprop:Generator_ColumnPropNameInTable="websiteColumn" msprop:Generator_UserColumnName="website" type="xs:string" minOccurs="0" />
+              <xs:element name="coordinator" msprop:Generator_ColumnVarNameInTable="columncoordinator" msprop:Generator_ColumnPropNameInRow="coordinator" msprop:Generator_ColumnPropNameInTable="coordinatorColumn" msprop:Generator_UserColumnName="coordinator" type="xs:string" minOccurs="0" />
+              <xs:element name="user_id" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:string" minOccurs="0" />
+              <xs:element name="created_time" msprop:Generator_ColumnVarNameInTable="columncreated_time" msprop:Generator_ColumnPropNameInRow="created_time" msprop:Generator_ColumnPropNameInTable="created_timeColumn" msprop:Generator_UserColumnName="created_time" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
